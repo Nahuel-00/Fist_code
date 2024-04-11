@@ -40,3 +40,38 @@
     height: auto; /* Altura ajustada automáticamente */
     margin: 10px; /* Espacio entre las imágenes */
 }
+
+.parteazul {
+    background-color: rgb(25, 163, 154); /* Color de fondo azul */
+    text-align: center; /* Centra horizontalmente el texto */
+    color: white; /* Color del texto blanco */
+    padding: 20px; /* Espaciado interno */
+}
+
+.texto {
+    font-size: 150%;
+
+}
+
+
+
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Espacio entre la sección azul y esta sección */
+}
+
+.info-left {
+    flex: 1;
+    margin-left: 9%;
+}
+
+.info-right {
+    flex: 1;
+    margin-right: 7%; /* Espacio entre el contenido derecho y el contenido izquierdo */
+}
+
+.info-right iframe {
+    width: 100%; /* Ajusta el ancho del mapa al 100% del contenedor */
+    height: 350px; /* Altura fija para el mapa */
+}
