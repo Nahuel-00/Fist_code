@@ -84,11 +84,12 @@
 
 .texto-izquierda2 {
     flex: 1;
+    margin-right: 16%;
 }
 
 .columna2 {
     flex: 1;
-
+    margin-left: 22%;
 }
 
 .narrow-section {
