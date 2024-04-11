@@ -6,20 +6,37 @@
 
 .textoa {
     position: absolute;
-    top: 50%; /* Posiciona el contenedor de texto en el centro vertical */
+    top: 35%; /* Posiciona el contenedor de texto en el centro vertical */
     left: 50%; /* Posiciona el contenedor de texto en el centro horizontal */
     transform: translate(-50%, -50%); /* Centra el contenedor */
     text-align: center; /* Centra horizontalmente el texto */
+    font-size: 200%;
 }
 
 .textob {
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px; /* Añade un margen entre los textos */
+    position: absolute;
+    top: 45%; /* Posiciona el contenedor de texto en el centro vertical */
+    left: 50.2%; /* Posiciona el contenedor de texto en el centro horizontal */
+    transform: translate(-50%, -50%); /* Centra el contenedor */
+    text-align: center; /* Centra horizontalmente el texto */
+    font-size: 200%;
 }
 .container img{
     width: 100%;
-    height: 50%;
+    height: 700px; /* Establece la altura deseada */
+    display: block;
+    object-fit: cover; /* Para que la imagen mantenga su relación de aspecto */
 }
 
+.P{
+    text-align: center;
+}
+.imagenesmedio {
+    text-align: center; /* Centra horizontalmente el bloque de imágenes */
+}
+
+.imagenesmedio img {
+    width: 20%; /* Ancho deseado de las imágenes */
+    height: auto; /* Altura ajustada automáticamente */
+    margin: 10px; /* Espacio entre las imágenes */
+}
