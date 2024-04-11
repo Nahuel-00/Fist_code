@@ -78,21 +78,25 @@
 .container2 {
     display: flex;
     background-color: rgba(58, 57, 57, 0.698);
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 20px;
 }
 
 .texto-izquierda2 {
     flex: 1;
-    margin-right: 16%;
+    margin-right: 0%;
 }
 
 .columna2 {
     flex: 1;
-    margin-left: 22%;
+    margin-left: 30%;
+}
+.columna4 {
+    flex: 1;
+    margin-left: 0%;
 }
 
-.narrow-section {
+.parte_negra {
     background-color: black; /* Color de fondo negro */
     color: white; /* Color del texto blanco */
     text-align: center; /* Centra el texto horizontalmente */
