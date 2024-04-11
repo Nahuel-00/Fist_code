@@ -75,3 +75,25 @@
     width: 100%; /* Ajusta el ancho del mapa al 100% del contenedor */
     height: 350px; /* Altura fija para el mapa */
 }
+.container {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.texto-izquierda {
+    flex: 1;
+}
+
+.columna {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.narrow-section {
+    background-color: black; /* Color de fondo negro */
+    color: white; /* Color del texto blanco */
+    text-align: center; /* Centra el texto horizontalmente */
+    padding: 10px; /* Espaciado interno */
+}
