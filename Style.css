@@ -100,10 +100,11 @@ body{
 
 .columna2 {
     flex: 1;
-    padding-left: 28%;
+    margin-left: 30%;
 }
 .columna4 {
     flex: 1;
+    margin-left: 0%;
 }
 
 .parte_negra {
@@ -143,17 +144,10 @@ body{
 
     .container2 {
         flex-direction: column;
-        width: 100%;
     }
 
-    .columna2{
-        border: 2px solid;color: black;
-        flex: 1;
-        padding-left: 28%;
-    }
-    
-    .columna4 {
-        border: 2px solid;color: black;
+    .columna2, .columna4 {
+        flex-direction: column;
     
     }
 
